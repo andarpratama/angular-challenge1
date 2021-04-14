@@ -1,5 +1,15 @@
 # AngularCallenge1
 
+
+Create two new Components: WarningAlert and SuccessAlert
+    Output them beneath each other in the AppComponent
+    Output a warning or success message in the Components
+    Style the Components appropriately (maybe some red/ green text?)
+
+Use external or internal templates and styles!
+
+Feel free to create more components, nest them into each other or play around with different types of selectors!
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.
 
 ## Development server
