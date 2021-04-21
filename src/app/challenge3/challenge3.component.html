@@ -1,0 +1,8 @@
+<div class="lg:px-52 md:px-14 px-10">
+   <hr class="mb-4">
+   <h1 class="text-2xl mb-4">Challenge-Angular3</h1>
+
+   <button (click)="clickEvent()" class="bg-indigo-500 text-gray-50 px-6 rounded-md py-2 hover:bg-indigo-700">Display</button>
+   <p class="mx-1" *ngIf="status" >Hello Wordl</p>
+   <p class="px-2 py-2 border-b border-gray-700" *ngFor="let i of angka" [ngClass]=" i >= 5 ? 'bg-indigo-500' : 'bg-gray-50'"  >{{ i }}</p>
+</div>
